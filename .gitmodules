@@ -1,0 +1,9 @@
+[submodule "CArDDog"]
+	path = CArDDog
+	url = https://github.com/AmausaHouse/CArDDog.git
+[submodule "CArDCat"]
+	path = CArDCat
+	url = https://github.com/AmausaHouse/CArDCat
+[submodule "CArDRabbit"]
+	path = CArDRabbit
+	url = https://github.com/AmausaHouse/CArDRabbit
