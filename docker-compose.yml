@@ -1,7 +1,7 @@
 version: '2'
 services:
   db:
-    image: postgres
+    image: postgres:9.6
   python:
     build: ./CArdDog/docker/python
     command: python manage.py runserver 0.0.0.0:8000
@@ -21,7 +21,7 @@ services:
     ports:
       - "3000:3000"
   nginx:
-    image: nginx
+    image: nginx:1.15.5
     volumes:
       - "./nginx/conf.d:/etc/nginx/conf.d"
     ports:
